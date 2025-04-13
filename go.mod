@@ -1,4 +1,4 @@
-module github.com/quailyquail/go-epub
+module github.com/quailyquaily/go-epub
 
 go 1.23.1
 
