@@ -597,7 +597,7 @@ func (e *Epub) EmbedImages() {
 				// organize img tags first one always be src and other data-src
 				// at least one src that point to the file inside epub
 				// no dupolicate src that point to the same file
-				// you can read more details https://github.com/go-shiori/go-epub/pull/3#issuecomment-1703777716
+				// you can read more details https://github.com/quailyquaily/go-epub/pull/3#issuecomment-1703777716
 				// Replace all "data-src=" with "src="
 				match[0] = strings.ReplaceAll(match[0], " data-src=", " src=")
 

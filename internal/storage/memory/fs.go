@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-shiori/go-epub/internal/storage"
+	"github.com/quailyquaily/go-epub/internal/storage"
 )
 
 type Memory struct {

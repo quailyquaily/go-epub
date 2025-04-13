@@ -396,7 +396,7 @@ func fixXMLId(id string) (string, error) {
 	if len(id) == 0 {
 		return "", fmt.Errorf("no id given")
 	}
-	namespace := uuid.NewV5(uuid.NamespaceURL, "github.com/go-shiori/go-epub")
+	namespace := uuid.NewV5(uuid.NamespaceURL, "github.com/quailyquaily/go-epub")
 	fileIdentifier := fmt.Sprintf("id%s", uuid.NewV5(namespace, id))
 	return fileIdentifier, nil
 }
